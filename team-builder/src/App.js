@@ -61,9 +61,9 @@ function App() {
           <div className="label">
             <select value={inputVal.role} name="role" onChange={change}>
               <option value="">--Pick Role--</option>
-              <option value="student">Student</option>
-              <option value="teacher">Teacher</option>
-              <option value="teamlead">Team Lead</option>
+              <option value="Student">Student</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Team Lead">Team Lead</option>
             </select>
           </div>
           <div className="label">

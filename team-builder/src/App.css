@@ -23,9 +23,36 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body {
+  background-color: #282c34;
+}
 
 .App-link {
   color: #61dafb;
+}
+.input {
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  margin: 5%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.box {
+  background-color: grey;
+  width: 20%;
+  margin: 2%;
+  border: 4px black solid;
+}
+.label {
+  margin: 10% auto;
 }
 
 @keyframes App-logo-spin {
